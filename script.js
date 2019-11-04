@@ -1,5 +1,8 @@
 $(document).ready(function() {
-    $("button").click(function(){
-        $("p").hide();
-    });
+    $("#lorem").click(function(){
+        $("#lorem").hide();
+    }),
+    $("h1").click(function(){
+        $("h1").hide("slow");
+    })
 });
